@@ -1,0 +1,24 @@
+Package: qmssnba
+Type: Package
+Title: Using An NBA Season Stats Dataset
+Version: 0.1.0
+Author: Charles Nkurunziza
+Maintainer: Charles Nkurunziza <cn2360@columbia.edu>
+Description: Given a selected year in an NBA Season Stats Dataset, can either return:
+    1. The position of the first player listed in the dataset
+    2. The name of the first player listed among the oldest players
+    3. The correlogram plot of the numeric variables
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests:
+    rmarkdown,
+    knitr
+Imports:
+    tidyverse,
+    corrplot,
+    dplyr,
+    tibble
+Depends:
+    R (>= 2.10.0)
